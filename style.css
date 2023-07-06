@@ -1,0 +1,22 @@
+body
+{
+background:cover;
+font-family: 'Ysabeau Infant', sans-serif;
+}
+.heading{
+width:100%;
+font-size:20px;
+}
+.heading button{
+    float:right;
+}
+#start{
+width:30%;
+height:10%;
+}
+#status{
+    border: 3px solid white;
+}
+.heading h3{
+    display:inline;
+}
