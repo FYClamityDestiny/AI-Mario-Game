@@ -1,34 +1,41 @@
-body
+
+.heading
 {
-font-family: 'Ysabeau Infant', sans-serif;
-background-size:cover;
-}
-.heading{
-width:100%;
-font-size:18px !important; 
-}
-.heading button{
-    float:right;
-}
-#start,#reset{
-width:30%;
-height:10%;
-}
-#status{
-    border: 3px solid white;
+width: 100%;
+text-align: left;
 }
 .heading h3{
-    display:inline;
+    display: inline;
 }
-.footer{
-font-size:16px;
-background-color:rgb(168, 172, 175);
-width:100%;
-bottom:0;
-margin:0;
-position:fixed;
+
+.heading button{
+    float: right;
+    border: 1px solid white;
 }
-canvas{
-border:3px white solid;
-border-radius:8px;
+
+#start ,#status, #restart
+{
+font-size: 22px;
 }
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
